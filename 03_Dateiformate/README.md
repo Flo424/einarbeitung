@@ -62,6 +62,6 @@ print(schema.is_valid(xml_path))
 7. Was versteht man unter Validierung?
 -validierung ist eine überfrüfung, in dem fall wird überprüft ob die xml datei der xsd "vorlage" entspricht
 8. An was erinnert eine XML-Datei bzgl. ihres Aufbaus?
--an HTML
+-es errinert an HTML
 9. Was bedeutet Parsen?
 parsen ist das zerlegen von daten oder code in kleinere teile
