@@ -44,15 +44,15 @@ Vim ist ein schneller und einfacher Texteditor den man mit der Tastatur steuert
 ### Linux-Befehle
 Was bewirken folgende Befehle:
 - `history`
-man sieht die vergangen änderungen auf der VM
+man sieht die zuletzt eingegebene befehle auf der VM
 - `chmod`
-Ändert, wer eine Datei benutzen darf
+chmod wird verwendet, um die Berechtigungen für Dateien und Verzeichnisse auf Linux zu ändern
 - `chown`
 Ändert, wem eine Datei gehört
 - `mv test.txt abc`
 Datei umbenenen oder verschieben
 - `ll | grep test`
-Zeigt alle Dateien, die „test“ im Namen haben
+Der Befehl grep test sucht auf Linux in der Eingabe oder einer Datei nach Zeilen, die das Wort „test“ enthalten, und gibt diese aus
 - `find . -name cisco`
 Sucht im aktuellen Ordner nach Dateien mit Namen „cisco“
 - `find / -name cisco`
