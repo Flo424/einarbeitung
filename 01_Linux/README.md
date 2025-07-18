@@ -54,23 +54,23 @@ Datei umbenenen oder verschieben
 - `ll | grep test`
 Der Befehl grep test sucht auf Linux in der Eingabe oder einer Datei nach Zeilen, die das Wort „test“ enthalten, und gibt diese aus
 - `find . -name cisco`
-Sucht im aktuellen Ordner nach Dateien mit Namen „cisco“
+ durchsucht das aktuelle Verzeichnis und alle Unterverzeichnisse nach Dateien oder Ordnern mit dem exakten Namen cisco 
 - `find / -name cisco`
-Sucht überall auf dem Computer nach Dateien mit Namen „cisco“
+sucht im ganzen dateisystem nach Dateien oder Ordnern mit dem Namen "Cisco"
 - `tar -xvf archive.tar.gz`
-Entpackt eine gepackte Datei
+ entpackt das Archiv archive.tar.gz und zeigt die enthaltenen Dateien beim Entpacken an.
 - `df -h`
 Zeigt, wie viel Speicher auf deinen Festplatten frei oder voll ist
 - `du -sh directory`
 Zeigt, wie groß ein Ordner ist
 - `ps aux`
-Zeigt, welche Programme gerade laufen
+ zeigt eine Liste aller laufenden Prozesse auf dem System mit detaillierten Informationen wie Benutzer, CPU- und Speicherverbrauch.
 - `grep pattern file`
 Sucht in einer Datei nach einem bestimmten Wort
 - `top`
 Zeigt laufende Programme und wie viel Leistung sie brauchen.
 - `netstat -tuln`
-Zeigt, welche Verbindungen dein Computer gerade hat
+zeigt alle aktiven TCP- und UDP-Ports an, auf denen der Rechner lauscht
 - `ifconfig`
 Zeigt Informationen über deine Netzwerkverbindung
 - `ping host`
